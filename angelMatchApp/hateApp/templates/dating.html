@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color:#FFB6C1">
+    <h1 style="color:white; text-align:center">Hello {{mymembers.0.firstname}},</h1>
+    <p style="text-align:center">We see that you dislike {{mymembers.0.hatefood}}.</p>
+
+    {%csrf_token%}
+    {%for x in mymembers %}
+    {%if mymembers.0.hatefood == x.hatefood%}
+        <p style="text-align:center">You matchted with {{x.firstname}} {{x.lastname}}!</p>
+    {% else %}
+        <p style="text-align:center">You didn't match with{{x.firstname}}{{x.lastname}}/</p>
+    {% comment %} <h1>Hello {{mymembers.0.firstname}}, how are you?</h1> {% endcomment %}
+    {% comment %} <h1>Hello {{ x.firstname }}, how are you?</h1> {% endcomment %}
+    {%endif%}
+    {% endfor%}
+</body>
+</html>

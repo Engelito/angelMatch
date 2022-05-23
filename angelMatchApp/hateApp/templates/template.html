@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<body>
+{%csrf_token%}
+{%for x in mymembers %}
+<h1>Hello {{ x.firstname }}, how are you?</h1>
+{% endfor%}
+<p>In views.py you can see how to create the variable.</p>
+<p>In the template.html you can see how to use variables.</p>
+</body>
+</html>
