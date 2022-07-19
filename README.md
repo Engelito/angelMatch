@@ -7,7 +7,7 @@ This webapp was created to try and have a dating site that will match the user w
 The purpose for writing the webpage was to learn how Django works and how to incorperate a database with it. 
 
 
-[Software Demo Video]([http://youtube.link.goes.here](https://www.youtube.com/watch?v=KWt9RN79Ybg&ab_channel=Engelito))
+[Software Demo Video]([http://youtube.link.goes.here](https://www.youtube.com/watch?v=KWt9RN79Ybg&ab_channel=Engelito)
 
 # Web Pages
 
