@@ -7,11 +7,9 @@ This webapp was created to try and have a dating site that will match the user w
 The purpose for writing the webpage was to learn how Django works and how to incorperate a database with it. 
 
 
-[Software Demo Video]([http://youtube.link.goes.here](https://www.youtube.com/watch?v=KWt9RN79Ybg&ab_channel=Engelito)
+[Software Demo Video](https://www.youtube.com/watch?v=KWt9RN79Ybg&ab_channel=Engelito)
 
 # Web Pages
-
-{Describe each of the web pages you created and how the web app transitions between each of them.  Also describe what is dynamically created on each page.}
 I have three webpages in this application. 
 The first one will show you the database and allow you see everyones name, age and food that they dislike.
 Second webpage will send you to an updated page where you can update the database through django. In order to get there, you must click on the number on the left which is their number in the list of people. 
@@ -19,11 +17,9 @@ The third page is a page where you can add a new member. You simply click on the
 Lastly there is the dating page which will show you who you matched with based on the database provided. 
 
 # Development Environment
+The programs I used were vs code, w3schools and the command prompt program.
+The languages used were python, django and html for this project
 
-I used vs code, w3schools and the command prompt program.
-I used python, django and html for this project
-
-{Describe the programming language that you used and any libraries.}
 
 # Useful Websites
 * [w3schools](https://www.w3schools.com/django/)
